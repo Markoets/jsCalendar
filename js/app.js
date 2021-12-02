@@ -53,7 +53,7 @@ const interval = setInterval(() => {
     const hours = Math.floor(timeLeft % (1000*60*60*24)/(1000*60*60));
     console.log(hours);
 
-    const minutes = Math.floor(timeLeft % (100*60*60)/(1000*60));
+    const minutes = Math.floor(timeLeft % (1000*60*60)/(1000*60));
     console.log(minutes);
     const seconds = Math.floor(timeLeft %(1000*60)/1000)
     console.log(seconds);
